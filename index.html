@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de José Antonio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Blog de José Antonio</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre mí</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <button id="btn-modo">🌙 Cambiar Modo</button>
+    </header>
+    <div style="text-align: center; margin-bottom: 20px;">
+    <input type="text" id="buscador" placeholder="Buscar helado...">
+    </div>
+
+    <section>
+        <!-- Aquí va el contenido del blog (perfecto para posts)-->
+        <article class="post oculto">
+            <h2>Helado de chocolate</h2>
+            <p>helado de chocolate es god</p>
+            <img class="imagen_post" src="https://www.eis-perfecto.de/wp-content/uploads/2023/07/Belgische-Schokolade-Eis-1024x577.jpg" >
+            <button class="btn-like">❤️ 0</button>
+        </article>
+        <article class="post oculto">
+            <h2>Helado de chocolate 2</h2>
+            <p>helado de chocolate es god</p>
+            <img class="imagen_post" src="https://www.eis-perfecto.de/wp-content/uploads/2023/07/Belgische-Schokolade-Eis-1024x577.jpg">
+            <button class="btn-like">❤️ 0</button>
+        </article>
+        <article class="post oculto">
+            <h2>Helado de chocolate 2</h2>
+            <p>helado de chocolate es god</p>
+            <img class="imagen_post" src="https://www.eis-perfecto.de/wp-content/uploads/2023/07/Belgische-Schokolade-Eis-1024x577.jpg">
+            <button class="btn-like">❤️ 0</button>
+        </article>
+        <article class="post oculto">
+            <h2>Helado de chocolate 2</h2>
+            <p>helado de chocolate es god</p>
+            <img class="imagen_post" src="https://www.eis-perfecto.de/wp-content/uploads/2023/07/Belgische-Schokolade-Eis-1024x577.jpg">
+            <button class="btn-like">❤️ 0</button>
+        </article>
+        <article class="post oculto">
+            <h2>Helado de chocolate 2</h2>
+            <p>helado de chocolate es god</p>
+            <img class="imagen_post" src="https://www.eis-perfecto.de/wp-content/uploads/2023/07/Belgische-Schokolade-Eis-1024x577.jpg">
+            <button class="btn-like">❤️ 0</button>
+        </article>
+        <article class="post oculto">
+            <h2>Helado de chocolate 2</h2>
+            <p>helado de chocolate es god</p>
+            <img class="imagen_post" src="https://www.eis-perfecto.de/wp-content/uploads/2023/07/Belgische-Schokolade-Eis-1024x577.jpg">
+            <button class="btn-like">❤️ 0</button>
+        </article>
+        <article class="post oculto">
+            <h2>Helado de chocolate 2</h2>
+            <p>helado de chocolate es god</p>
+            <img class="imagen_post" src="https://www.eis-perfecto.de/wp-content/uploads/2023/07/Belgische-Schokolade-Eis-1024x577.jpg">
+            <button class="btn-like">❤️ 0</button>
+        </article>
+        <article class="post oculto">
+            <h2>Helado de chocolate 2</h2>
+            <p>helado de chocolate es god</p>
+            <img class="imagen_post" src="https://www.eis-perfecto.de/wp-content/uploads/2023/07/Belgische-Schokolade-Eis-1024x577.jpg">
+            <button class="btn-like">❤️ 0</button>
+        </article>
+    </section>
+
+    <div id="suscriptor-destacado">
+    <h3>Nuevo Suscriptor</h3>
+    <img id="foto-suscriptor" src="" style="border-radius: 50%; width: 100px;">
+    <p id="nombre-suscriptor">Cargando...</p>
+    <button id="btn-cargar-usuario">Cargar usuario</button>
+    </div>
+
+    <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+        <input type="text" id="nombre-input" placeholder="Tu nombre">
+        <input type="email" id="email-input" placeholder="Tu correo">
+        <button type="submit">Enviar Mensaje</button> 
+    </form>
+    <p id="mensaje-error" style="color: red; display: none;">Revisa los datos, por favor.</p>
+    <p id="mensaje-exito" style="color: green; display: none;">¡Mensaje enviado!</p>
+</section>
+
+    <footer>
+        <a href="mailto:thewolf4826@gmail.com"><i class="fa-solid fa-envelope"></i>Contáctame</a>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
