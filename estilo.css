@@ -186,3 +186,28 @@ footer a:hover{
 footer i{
     margin-right: 5px;
 }
+
+
+
+/* --- DISEÑO PARA MÓVILES (PANTALLAS PEQUEÑAS) --- */
+@media (max-width: 600px) {
+    
+    /* 1. Cambiamos los helados a 1 sola columna */
+    section {
+        grid-template-columns: 1fr; /* Ahora se apilan uno debajo de otro */
+        gap: 20px; /* Reducimos el espacio entre ellos para que no quede tanto hueco */
+        margin-top: 30px;
+    }
+
+    /* 2. Hacemos que las imágenes ocupen todo el ancho disponible */
+    .imagen_post {
+        max-width: 100%; 
+    }
+
+    /* 3. Ajustamos el botón de modo oscuro para que no estorbe */
+    #btn-modo {
+        position: static; /* Deja de flotar arriba a la derecha */
+        display: block;
+        margin: 10px auto; /* Lo centramos en la pantalla */
+    }
+}
